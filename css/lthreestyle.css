@@ -1,0 +1,46 @@
+<style>
+body {
+     background-color: teal;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: teal;
+}
+
+h2 {
+   
+   background-color: rgb(249, 246, 193);
+   border-radius: 10px;
+   text-align: center;
+}
+
+p {
+   font-size: 25px;
+   text-align: justify;
+   font-family: monaco; 
+   background-color: teal;
+}
+
+div {
+     background-color: lightblue;
+     width: 250px;
+     height: 170px;
+     border: 15px solid grey;
+     padding: 20px;
+     margin: 20px;
+     border-radius: 20px;
+}
+
+li {
+   text-align: left;
+   font-size: 20px;
+}
+ 
+a {
+   font-size: 25px;
+   width: 520px;
+   background-color: teal;
+}
+</style>
