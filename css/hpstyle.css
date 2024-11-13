@@ -3,14 +3,14 @@ body {
     background-color: lightblue;
   }
 
-head {
-     background-color: teal;
+header {
+     background-color: white;
 }
 
 h1 {
   color: blue;
   text-align: center;
-  background-color: lightblue;
+  background-color: white;
   border-radius: 15px;
 }
 
@@ -86,10 +86,16 @@ img {
     background-color: lightblue;
     }
     
-a {
+a:hover {
   color: white;
+  background-color: blue;
   text-align: center;
   font-size: 30px;
+  text-decoration:none;
   }
+
+a:link {
+   text-decoration: none;
+   }
 
 </style>
