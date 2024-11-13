@@ -62,12 +62,12 @@ h1 {
 }
 
 
-h3 {
-   color: black;
+h3:hover {
+   color: white;
    font-family: Lucida handwriting;
    text-align: center;
    font-size: 25px;
-   background-color: lightblue;
+   background-color: purple;
 }
 
    
@@ -90,7 +90,7 @@ a:hover {
   color: white;
   background-color: blue;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   text-decoration:none;
   }
 
@@ -98,4 +98,8 @@ a:link {
    text-decoration: none;
    }
 
+div.content: active {
+ background-color: white;
+ }
+ 
 </style>
