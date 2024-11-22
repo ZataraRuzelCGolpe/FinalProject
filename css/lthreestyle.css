@@ -83,5 +83,17 @@ section{
 footer {
  text-align: center;
  }
- 
+
+img {
+     padding: 10px;
+     transition-property: transform;
+     transition-duration: 5s;
+  
+     }
+     
+img: hover {
+   transform: scale (1.5) translate(20px, -30px) rotate (20deg);
+   
+   }
+   
 </style>
