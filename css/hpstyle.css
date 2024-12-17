@@ -19,46 +19,20 @@ h1 {
        background-color: lightblue;
 }
 
-#blueBG { 
-           float: left;
-           color: white;
-           background-color: blue;
-           font-family: monaco;
-           text-align: center;
-           border-radius: 25px;
-           width: 340px;
-           height: 300px;
-           margin-right: 20px;
-           padding: 20px;
-
-}
-
-#bluebg { 
-           display: inline-block;
-           float: left;
-           color: white;
-           background-color: blue;
-           font-family: monaco;
-           text-align: center;
-           border-radius: 25px;
-           width: 340px;
-           height: 300px;
-           margin-right: 20px;
-           padding: 20px;
-}
-
-#blue {
-           display: inline-block;
-           float: left;
-           color: white;
-           background-color: blue;
-           font-family: monaco;
-           text-align: center;
-           border-radius: 25px;
-           width: 340px;
-           height: 300px;
-           margin-right: 20px;
-           padding: 20px;
+.blueBG {
+    display: inline-block;
+    color: white;
+    background-color: blue;
+    font-family: Monaco, monospace;
+    text-align: center;
+    border-radius: 25px;
+    width: 340px; /* Adjust as necessary */
+    height: auto; /* Allow height to adjust based on content */
+    margin-right: 20px;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+   
 }
 
 
@@ -68,6 +42,7 @@ h3:hover {
    text-align: center;
    font-size: 25px;
    background-color: purple;
+   text-decoration: underline;
 }
 
    
@@ -102,4 +77,12 @@ div.content: active {
  background-color: white;
  }
  
+.sprite {
+ display:inline-block;
+ margin-top:0px;
+ background: url('imgs/sprite.PNG') no-repeat -50px -45px;
+	width: 153px;
+	height: 153px;
+}
+
 </style>
