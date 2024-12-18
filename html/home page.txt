@@ -12,9 +12,7 @@
      <div id='content'>
      <p>Earth's waters are one one of the most valuable resources that we possess. Seas & oceans have been sources of economy, livelihood and many other things. Many people have relied on the marine areas in order to survive and provide their needs in everyday living. Way before, when technology was not booming in society yet, people went with the traditional old ways of using the marine resources. The years progressed, but the condition of these water bodies declined. New technologies and ongoing human activity has caused quite an amount of damage. It is of vital importance that we also know how to conserve marine resources found in these habitats. Despite the continuous efforts of various conservation groups, the progress rate of the development of our marine bodies are increasing at quite a slow rate. This website provides knowledge on things concerning sustainable marine development. </p>
      </div>
-     
-     <div class="sprite">
-     </div>
+
      
      <br><br><br><br><br>
 
