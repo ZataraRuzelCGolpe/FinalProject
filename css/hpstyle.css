@@ -26,8 +26,8 @@ h1 {
     font-family: Monaco, monospace;
     text-align: center;
     border-radius: 25px;
-    width: 340px; /* Adjust as necessary */
-    height: auto; /* Allow height to adjust based on content */
+    width: 340px; 
+    height: 150px; 
     margin-right: 20px;
     padding: 20px;
     margin: 5px;
@@ -42,10 +42,10 @@ h3:hover {
    text-align: center;
    font-size: 25px;
    background-color: purple;
-   text-decoration: underline;
+   text-decoration: none;
+   background-clip: content-box;
 }
 
-   
   
 p {
   font-family: arial;
@@ -73,9 +73,27 @@ a:link {
    text-decoration: none;
    }
 
-div.content: active {
- background-color: white;
- }
- 
+[class*="sprite-"] {
+    width: 128px;
+    height: 128px;
+    display: inline;
+    background-image: url('socmedspr.png');
+    background-repeat: no-repeat;
+   
+}
+.socmed-1 {
+   background-position: -36px -27px;
+}
+.socmed-2 {
+   background-position: -236px -27px;
+}
+
+footer {
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+}
 
 </style>
