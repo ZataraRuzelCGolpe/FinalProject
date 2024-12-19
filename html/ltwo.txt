@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threats to Sustainable Marine Development</title>
+    <style>
+        body {
+            font-family: papyrus;
+            margin: 0;
+            padding: 20px;
+            background-color: darkblue;
+        }
+        header {
+            background-color: #0077be;;
+            color: lightyellow;
+            text-align: center;
+        }
+        section {
+            margin: 10px;
+            border: dotted;
+            padding: 5px;
+            color:lightgray;
+            font-family: monaco;
+            font-size: 20px;
+        }
+        h2 {
+            color: lightyellow;
+            text-decoration-line: underline;
+            font-family:monaco;
+            text-align: center;        }
+        
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 0.8em;
+            color: yellow;
+        }
+        a:link {
+            color: lightgray;
+            text-align: center;
+        }
+        a:hover {
+            color: white;
+            font-size: 25px;
+            background-color: pink;
+        }
+        .ex{
+            background-color: lightblue;
+            border-radius:10px;
+            padding:5px;
+            margin:5px;
+            display:inline-block;
+            float:left;
+            font-family: monaco;
+            font-size: 20px;
+            width:300px;
+            height: 280px;
+            text-align:center;
+        }
+       img {
+           text-align: center;
+           }
+       nav {
+           text-align: center;
+       }
+       ul li{
+        display: inline;
+        padding: 20px;
+        text-decoration:none;
+       }
+     
+       article {
+       color: white;
+       background-clip: content-box;
+       }
+       
+       
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Threats to Sustainable Marine Development</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="l1.html">Previous Page</a></li>
+      </ul>
+     </nav>
+</header>
+<section>
+    <h2>Overview</h2>
+    <p>Sustainable marine development is essential for preserving ocean ecosystems, but various threats jeopardize this goal. In this page, we will be showing the different threats that marine development is exposed to. Most of these are human-induced as we participate in activities that result to these.</p>
+    </section>
+
+    <h2>Major Threats</h2>
+     <div class="ex">
+       <ul>
+         <strong>Overfishing</strong>
+       </ul>
+         <img src="overfishing.jpg" width=200px height=100px>
+         <p> Depletes fish populations and disrupts marine food chains.</p>
+    </div>
+    
+    
+    <div class="ex">
+    
+     <ul><strong>Pollution</strong>
+     </ul>
+        <img src="pollution.jpg"width=200px height=100px>
+<p>Chemicals and plastics harm marine life and habitats.</p>
+    </div>
+    
+   <center>
+    <div class="ex">
+    <ul>
+        <strong>Climate Change</strong> 
+    </ul>
+        <img src="cc.jpg" width=200px height=100px>
+        <p> Alters ocean temperatures and acidifies waters, affecting biodiversity.</p>
+    </div>
+    
+    
+    <div class="ex">
+    <ul>
+        <strong>Habitat Destruction:</strong> 
+    </ul>
+        <img src="hd.jpg" width=200px height=100px>
+        <p> Coastal development and bottom trawling destroy critical marine habitats.</p>
+    </div>
+   </center>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    <article>
+     <h2>Conclusion</h2>
+    <p>Marine Development is threatened by many different factors. These include overfishing, pollution, climate change, habitat destruction and plent more.  Addressing these threats is crucial for the health of our oceans and the future of marine resources.  If we let these problems worsen, we will lose a significant amount of resources and hinder progress.</p>
+    </article>
+    <br><br>
+  
+<a href="https://www.un.org/sustainabledevelopment/oceans/">More on Sustainable Marine Development (Goal 14)</a>
+ 
+ <br>
+
+<footer>
+    <p>&copy; AQUA AWARENESS</p>
+</footer>
+
+
+
+</body>
+</html>
