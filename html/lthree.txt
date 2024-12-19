@@ -38,9 +38,8 @@
      </section>
      <br><br>
      <center>
-     <video width="1000" height="800" controls autoplay>
-       <source src="https://youtube.com/embed/571sT5s_5go">
-     </video>
+     <iframe width="1000" height="800" src="https://youtube.com/embed/571sT5s_5go">
+     </iframe>
      </center>
      <br>
      
