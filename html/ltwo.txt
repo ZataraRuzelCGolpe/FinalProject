@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Threats to Sustainable Marine Development</title>
-  <link rel = "stylesheet" type = "text/css" hred = "ltwostyle.css">
+  <link rel = "stylesheet" type = "text/css" href = "ltwostyle.css">
 </head>
 <body>
 
