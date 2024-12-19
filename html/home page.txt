@@ -41,13 +41,17 @@
     <footer>
       
       <h3> Click on the links above to know more about each topic!</h3>
+      <ul>
+        <li><span class="sprite-1"></span><li>
+        <li><span class="sprite-2"></span><li>
+      </ul>
      
     </footer>
 
 </body>
 </html>
 
-
+<link rel = "stylesheet" type = "text/css" href = "css/hpstyle.css">
 
 
 
