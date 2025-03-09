@@ -1,91 +1,68 @@
 <style>
-body{
-  background-color: #f0f0f0;
+body {
+  font-family: sans-serif;
 }
-.title {
-	color: #5C6AC4;
+#quiz-container
+{
+  width: 900px;
+  margin: 15px ;
+  border-radius: 15px;
+}
+
+#nextButton{
+  color: purple ;
+  font-family: lucida ;
+  font-size: 15px;
+}
+
+#prevButton{
+  color:purple ;
+  font-family: lucida ;
+  font-size: 15px;
+}
+
+
+#submitButton{
+  color:purple ;
+  font-family: lucida ;
+  font-size: 15px;
+}
+
+#questions {
+  margin-bottom: 15px;
+}
+
+.result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.correct {
+  color: green;
+}
+.incorrect {
+  color: red;
 }
 
 h1{
   text-align: center;
-  color: darkblue;
-  text-decoration: underline overline;
 }
 
-h2 {
-  color: green;
+
+#questions .question p {
+  font-size: 20px; 
+  font-weight: bold; 
+  color: blue; 
+  margin-bottom: 20px; 
+  text-decoration-line: underline;
 }
 
-footer {
-  text-align:center;
-  color:brown;
-  font-size: 40px;
+#questions label {
+  font-size: 18px; 
+  color: black; 
+  margin-bottom: 15px;
 }
 
-#randomNumber1 {
-    background-color: lightgreen; 
-    display: inline-block;
-    width: 100px;
-    height: 50px;
-    margin: 10px;
-    padding: 5px;
-    border-radius: 10px;
-    text-align: center;
-        }
-        
-        
-#randomNumber2 {
-    background-color: pink; 
-    display: inline-block;
-    width: 100px;
-    height: 50px;
-    margin: 10px;
-    padding: 5px;
-    border-radius: 10px;
-    text-align: center;
-        }
-        
-#randomNumber3 {
-    background-color: Lightblue; 
-    display: inline-block;
-    width: 100px;
-    height: 50px;
-    margin: 10px;
-    padding: 5px;
-    border-radius: 10px;
-    text-align: center;
-        }
 
-#biggestnum {
-  background-color: #e0ffff; 
-  padding: 10px;
-  width: 500px;
-  margin-top: 10px;
-  border: 1px solid #ddd;
-  font-weight: bold;
-  font-size: 1.2em;
-  font-family: sans-serif;
-        }
-        
-#letter {
-  background-color: #e0ffff; 
-  padding: 10px;
-  width: 500px;
-  margin-top: 10px;
-  border: 1px solid #ddd;
-  font-weight: bold;
-  font-size: 1.2em;
-  font-family: sans-serif;
-        }
-        
-#timeBreakdown {
-  background-color: #e0ffff; 
-  padding: 10px;
-  width: 500px;
-  margin-top: 10px;
-  border: 1px solid #ddd;
-  font-weight: bold;
-  font-size: 1.2em;
-  font-family: sans-serif;
-        }
+</style>
 </style>
