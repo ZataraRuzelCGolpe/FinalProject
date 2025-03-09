@@ -1,0 +1,91 @@
+<style>
+body{
+  background-color: #f0f0f0;
+}
+.title {
+	color: #5C6AC4;
+}
+
+h1{
+  text-align: center;
+  color: darkblue;
+  text-decoration: underline overline;
+}
+
+h2 {
+  color: green;
+}
+
+footer {
+  text-align:center;
+  color:brown;
+  font-size: 40px;
+}
+
+#randomNumber1 {
+    background-color: lightgreen; 
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+        }
+        
+        
+#randomNumber2 {
+    background-color: pink; 
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+        }
+        
+#randomNumber3 {
+    background-color: Lightblue; 
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+        }
+
+#biggestnum {
+  background-color: #e0ffff; 
+  padding: 10px;
+  width: 500px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: sans-serif;
+        }
+        
+#letter {
+  background-color: #e0ffff; 
+  padding: 10px;
+  width: 500px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: sans-serif;
+        }
+        
+#timeBreakdown {
+  background-color: #e0ffff; 
+  padding: 10px;
+  width: 500px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: sans-serif;
+        }
+</style>
