@@ -58,11 +58,11 @@
         <p> Coastal development and bottom trawling destroy critical marine habitats.</p>
     </div>
    </center>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     
     <article>
      <h2>Conclusion</h2>
-    <p>Marine Development is threatened by many different factors. These include overfishing, pollution, climate change, habitat destruction and plent more.  Addressing these threats is crucial for the health of our oceans and the future of marine resources.  If we let these problems worsen, we will lose a significant amount of resources and hinder progress.</p>
+    <p>Marine Development is threatened by many different factors. These include overfishing, pollution, climate change, habitat destruction, and plenty more.  Addressing these threats is crucial for the health of our oceans and the future of marine resources.  If we let these problems worsen, we will lose a significant amount of resources and hinder progress.</p>
     </article>
     <br><br>
   
