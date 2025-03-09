@@ -14,12 +14,16 @@
             margin: 10px;
             border: dotted;
             padding: 5px;
-            color:lightgray;
+            color:black;
             font-family: monaco;
             font-size: 20px;
         }
+
+        p {
+            color:black;
+        }
         h2 {
-            color: lightyellow;
+            color: green;
             text-decoration-line: underline;
             font-family:monaco;
             text-align: center;        }
@@ -28,10 +32,10 @@
             margin-top: 20px;
             text-align: center;
             font-size: 0.8em;
-            color: yellow;
+            color: brown;
         }
         a:link {
-            color: lightgray;
+            color: gray;
             text-align: center;
         }
         a:hover {
