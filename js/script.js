@@ -47,6 +47,11 @@ function displayQuestion(index) {
     const radioId = `q${index}-opt${optIdx}`;
     radio.id = radioId;
 
+    // Pre-select previously answered option if any
+    if (answeredQuestions[index] === option) {
+      radio.checked = true;
+    }
+
     const label = document.createElement("label");
     label.setAttribute("for", radioId);
     label.textContent = option;
@@ -72,15 +77,12 @@ function nextQuestion() {
 
   answeredQuestions[currentQuestionIndex] = selectedOption.value;
 
-  if (selectedOption.value === questions[currentQuestionIndex].answer) {
-    score++;
-  }
-
   currentQuestionIndex++;
 
   if (currentQuestionIndex < questions.length) {
     displayQuestion(currentQuestionIndex);
   } else {
+    calculateScore();  // Calculate score fresh here
     document.getElementById("nextButton").classList.add("hidden");
     document.getElementById("submitButton").classList.remove("hidden");
     displayResults();
@@ -95,10 +97,18 @@ function previousQuestion() {
 }
 
 function calculateScore() {
-  displayResults();
+  let newScore = 0;
+  for (let i = 0; i < answeredQuestions.length; i++) {
+    if (answeredQuestions[i] === questions[i].answer) {
+      newScore++;
+    }
+  }
+  score = newScore;
 }
 
 function displayResults() {
+  calculateScore(); // Ensure score is up to date
+
   const questionsDiv = document.getElementById("questions");
   questionsDiv.innerHTML = "";
 
