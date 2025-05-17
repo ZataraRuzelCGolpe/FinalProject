@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Marine Makeover Campaign - Profile</title>
+  <link rel="stylesheet" href="pstyles.css">
+</head>
+<body>
+  <main>
+    <h1>Welcome to Marine Makeover</h1>
+    <p>Thank you for joining our campaign!</p>
+
+    <section id="profile">
+      <h2>Your Profile</h2>
+      <p><strong>First Name:</strong> <span id="firstName"></span></p>
+      <p><strong>Last Name:</strong> <span id="lastName"></span></p>
+      <p><strong>Email Address:</strong> <span id="email"></span></p>
+      <p><strong>Sex:</strong> <span id="sex"></span></p>
+      <p><strong>Why I support this campaign:</strong></p>
+      <p id="supportReason"></p>
+    </section>
+  </main>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('firstName').textContent = localStorage.getItem('firstName') || '';
+      document.getElementById('lastName').textContent = localStorage.getItem('lastName') || '';
+      document.getElementById('email').textContent = localStorage.getItem('email') || '';
+      document.getElementById('sex').textContent = localStorage.getItem('sex') || '';
+      document.getElementById('supportReason').textContent = localStorage.getItem('supportReason') || '';
+    });
+  </script>
+</body>
+</html>

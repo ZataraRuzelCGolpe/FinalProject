@@ -1,0 +1,23 @@
+ <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #f0f4f8, #d9e2ec);
+      margin: 0; padding: 20px;
+      display: flex; justify-content: center; align-items: center; min-height: 100vh;
+    }
+    main {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 500px;
+      color: #005f73;
+    }
+    h1, p {
+      text-align: center;
+    }
+    p strong {
+      color: #0a9396;
+    }
+  </style>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Marine Makeover Campaign - Signup</title>
+  <link rel="stylesheet" href="sstyles.css" />
+</head>
+<body>
+  <header>
+    <img src="imgs/mc.jpg" alt="Marine Conservation" class="logo" />
+    <h1>Marine Makeover campaign</h1>
+    <p class="tagline">Giving The Blue Ecosystem A Makeover From Pollution</p>
+  </header>
+  <main>
+    <h1>Equal Voices Campaign</h1>
+    <p>Advocating for Gender Equality and Empowerment</p>
+
+    <form id="signupForm" novalidate>
+      <label>First Name<span class="required">*</span>
+        <input type="text" name="firstName" />
+        <div class="error"></div>
+      </label>
+
+      <label>Last Name<span class="required">*</span>
+        <input type="text" name="lastName" />
+        <div class="error"></div>
+      </label>
+
+      <fieldset class="sex-group">
+        <legend>Sex<span class="required">*</span></legend>
+        <label><input type="radio" name="sex" value="Male" /> Male</label>
+        <label><input type="radio" name="sex" value="Female" /> Female</label>
+        <label><input type="radio" name="sex" value="Prefer not to say" /> Prefer not to say</label>
+        <div class="error"></div>
+      </fieldset>
+
+      <label>Email Address<span class="required">*</span>
+        <input type="email" name="email" />
+        <div class="error"></div>
+      </label>
+
+      <label>Password<span class="required">*</span>
+        <input type="password" name="password" />
+        <div class="error"></div>
+      </label>
+
+      <label>Contact Number
+        <input type="text" name="contactNumber" />
+      </label>
+
+      <label>Why you’re supporting our campaign<span class="required">*</span>
+        <textarea name="supportReason" rows="4"></textarea>
+        <div class="error"></div>
+      </label>
+
+      <button type="submit">Join the Movement</button>
+    </form>
+  </main>
+  <script src="sscript.js"></script>
+</body>
+</html>
