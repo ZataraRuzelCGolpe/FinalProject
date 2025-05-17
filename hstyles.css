@@ -1,7 +1,11 @@
-  <style>
+<style>
         body {
             margin: 0;
             padding: 0;
+        }
+        
+        nav{
+          text-align: center;
         }
 
         h1 {
